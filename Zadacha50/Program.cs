@@ -37,7 +37,7 @@ FillArray(matrix);
 PrintArray(matrix);
 
 Console.Write($"Введите первый индекс элемента: ");
-int indexStr = int.Parse(Console.ReadLine());
+int indexStr = int.Parse(Console.ReadLine()!);
 
 Console.Write($"Введите второй индекс элемента: ");
 int indexStl = int.Parse(Console.ReadLine()!);
